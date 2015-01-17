@@ -27,14 +27,14 @@
 
 //TODO Define number of blocks for block size median calculation
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 100
-#define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE       10000 //size of block (bytes) after which reward for block calculated using block size
+#define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE       20000 //size of block (bytes) after which reward for block calculated using block size
 #define CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE          600
 //TODO Define number of digits
 #define CRYPTONOTE_DISPLAY_DECIMAL_POINT                
 //TODO Define number of smallest units in one coin
 #define COIN                                            
 //TODO Define default fee for transactions
-#define DEFAULT_FEE                                     
+#define DEFAULT_FEE 10000                                
 
 //TODO Define preferred block's target time
 #define DIFFICULTY_TARGET                               80 // seconds
